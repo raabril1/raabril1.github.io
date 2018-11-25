@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Contact 2DaRescue">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>2DaRescue Contact Page</title>
+		
+		<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="javascript/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="javascript/rescue.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		
+		</head>
+	<body>
+		<div id="wrapper">
+		<div id="navBar">
+			<header role="banner">
+				<h1>Contact Us</h1>
+				<a href="index.html"><img src="pictures/2DaRescueBanner.png" class="mobileHidden banner" alt="2DaRescue Banner" align="left"></a>
+				<div id="whiteSpace">
+				</div>
+				
+			</header>
+			<nav id="mainNav" role="navigation">
+				<div class="mobileNav">
+					<div id="ham"> 
+						<input type="checkbox" class="desktopHidden tabletHidden" />
+						<br class="desktopHidden tabletHidden">
+						<span></span>
+						<span></span>
+						<span></span>
+							
+						<ul id="hamburgerNav">
+							<li class="primary"><a href="index.html">Home</a></li>
+							<li class="primary active"><a href="adopt.html">Adopt</a></li>
+							<li class= "primary adjacent"><a href="about.html">About Us</a></li>
+							<li class="primary"><a href="volunteer.html">Volunteer</a></li>
+							<li><a href="donate.html">Donate</a></li>
+							<li><a href="surrender.html">Surrender</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div> 
+						<a href="index.html"><img src="pictures/2DaRescueBannerMini.png" class="desktopHidden tabletHidden banner"></a>
+				</div>
+			</nav>
+		</div>
+			<main role="main">
+				<h2>Contact Us</h2>
+				<p> Click the dogs below to be redirected to Adopt-a-Pet and see more information </p>
+				<h3> See someone you like? <a href="adoptionform.html">Click here </a> to fill out our adoption form </h3>
+
+
+                <div id="dogGallery">
+                   <ul id="items--big" class="items--big"></ul>
+                </div>
+		    </main>
+			<footer role="contentinfo">
+			<h5>Copyright &copy; 2018 2DaRescue &nbsp; | &nbsp; <a href="mailto:karen@2darescue.org">karen@2darescue.org</a> &nbsp; | &nbsp; (480) 229-9530  &nbsp; | &nbsp; Find us on <a href="https://www.facebook.com/2DARESCUE.ORG/">Facebook</a> and <a href="https://www.youtube.com/channel/UCCoY4osNB6nIRKdEUuwOBVg">Youtube</a></h5>
+			</footer>
+		</div>
+		<div id="dogDetailsDialog" title="Pet Details" style="display: none;">
+		  <img id="dogPic" />
+		  <h2 id="dogName"></h2>
+		   <ul>
+		   	<li id="dogGender"></li>
+			<li id="dogAge"></li>
+			<li id="dogBreed"></li>
+			<li id="dogSize"></li>
+			<li> For full details, please visit <a id="dogLink">Adopt-A-Pet.com</a></li>
+		   </ul>
+		   <a href="adoptionform.html"><button type= button>Fill out an adoption form!</button></a>
+		   
+		</div>
+	</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Adoption Form">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>2DaRescue Adoption Form</title>
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="javascript/adoptionForm.js"></script>
+		<link rel="stylesheet" href="css/styles.css">
+		</head>
+	<body>
+		<div id="wrapper">
+		<div id="navBar">
+			<header role="banner">
+				<h1>Volunteer</h1>
+				<a href="index.html"><img src="pictures/2DaRescueBanner.png" class="mobileHidden banner" alt="2DaRescue Banner" align="left"></a>
+				<div id="whiteSpace">
+				</div>
+				
+			</header>
+			<nav id="mainNav" role="navigation">
+				<div class="mobileNav">
+					<div id="ham"> 
+						<input type="checkbox" class="desktopHidden tabletHidden" />
+						<br class="desktopHidden tabletHidden">
+						<span></span>
+						<span></span>
+						<span></span>
+							
+						<ul id="hamburgerNav">
+							<li class="primary"><a href="index.html">Home</a></li>
+							<li class="primary"><a href="adopt.html">Adopt</a></li>
+							<li class= "primary"><a href="about.html">About Us</a></li>
+							<li class="primary"><a href="volunteer.html">Volunteer</a></li>
+							<li><a href="donate.html">Donate</a></li>
+							<li><a href="surrender.html">Surrender</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div> 
+						<a href="index.html"><img src="pictures/2DaRescueBannerMini.png" class="desktopHidden tabletHidden banner"></a>
+				</div>
+			</nav>
+		</div>
+		<main>
+			<h2>Adoption Form</h2>	
+			<p>
+				All our dogs are fixed, up to date on shots, and microchipped. We save lots of dogs with all sorts of needs and believe they all deserve a second chance at wonderful lives. The adoption fee that you pay ($150-$350) for your dog helps cover some of our expenses.
+			</p>
+			<h3>Fill out the form below to apply to adopt a dog</h3>
+		<form id="majorForm"  action="http://blah.com" method="get">
+			<div id="personalInfo">
+				<label for="applicantName">Full name:</label>
+				<input type="text" name="applicantName" id="applicantName" class="fullTextbox" required="required">
+				<label for="applicantEmail">Email:</label>
+				<input type="text" name="applicantEmail" id="applicantEmail" class="halfTextbox" required="required">
+				<br class="desktopHidden mobileHidden">
+				<label for="applicantPhone" id="phoneLabel">Phone Number:</label>
+				<input type="text" name="applicantPhone" id="applicantPhone" class="halfTextbox" required="required">
+				<label for="applicantStreetAddress">Street Address:</label>
+				<input type="text" name="applicantStreetAddress" id="applicantStreetAddress" class="fullTextbox" required="required">
+				<label for="applicantCity">City:</label>
+				<input type="text" name="applicantCity" id="applicantCity" class="halfTextbox" required="required">
+				<label for="applicantState">State:</label>
+				<select size="1" name="applicantState" id="applicantState" required="required">
+								<option> Select your state </option>
+								<option value="alabama">Alabama</option>
+								<option value="alaska">Alaska</option>
+								<option value="arizona">Arizona</option>
+								<option value="arkansas">Arkansas</option>
+								<option value="california">California</option>
+								<option value="colorado">Colorado</option>
+								<option value="connecticut">Connecticut</option>
+								<option value="delaware">Delaware</option>
+								<option value="florida">Florida</option>
+								<option value="georgia">Georgia</option>
+								<option value="hawaii">Hawaii</option>
+								<option value="idaho">Idaho</option>
+								<option value="illinois">Illinois</option>
+								<option value="indiana">Indiana</option>
+								<option value="iowa">Iowa</option>
+								<option value="kansas">Kansas</option>
+								<option value="kentucky">Kentucky</option>
+								<option value="louisiana">Louisiana</option>
+								<option value="maine">Maine</option>
+								<option value="maryland">Maryland</option>
+								<option value="massachusetts">Massachusetts</option>
+								<option value="michigan">Michigan</option>
+								<option value="minnesota">Minnesota</option>
+								<option value="mississippi">Mississippi</option>
+								<option value="missouri">Missouri</option>
+								<option value="montana">Montana</option>
+								<option value="nebraska">Nebraska</option>
+								<option value="nevada">Nevada</option>
+								<option value="newhampshire">New Hampshire</option>
+								<option value="newjersey">New Jersey</option>
+								<option value="newmexico">New Mexico</option>
+								<option value="newyork">New York</option>
+								<option value="northcarolina">North Carolina</option>
+								<option value="northdakota">North Dakota</option>
+								<option value="ohio">Ohio</option>
+								<option value="oklahoma">Oklahoma</option>
+								<option value="oregon">Oregon</option>
+								<option value="pennsylvania">Pennsylvania</option>
+								<option value="rhodeisland">Rhode Island</option>
+								<option value="southcarolina">South Carolina</option>
+								<option value="southdakota">South Dakota</option>
+								<option value="tennessee">Tennessee</option>
+								<option value="texas">Texas</option>
+								<option value="utah">Utah</option>
+								<option value="vermont">Vermont</option>
+								<option value="virginia">Virginia</option>
+								<option value="washington">Washington</option>
+								<option value="westvirginia">West Virginia</option>
+								<option value="wisconsin">Wisconsin</option>
+								<option value="wyoming">Wyoming</option>
+							</select>
+				<label for="applicantZip">Zip:</label>
+				<input type="text" name="applicantZip" id="applicantZip" class="quarterTextbox" required="required">
+			</div>
+			<label for="whereLive">What is your current living situation?</label>
+			<input type = "radio"
+				name="whereLive"
+				id="own"
+				value="own">
+			<label for="ownHome" class="radioLabel">I own my home</label>
+			<input type = "radio"
+				name="whereLive"
+				id="rent"
+				value="rent">
+			<label for="rentHome" class="radioLabel">I rent my home</label>
+			<input type = "radio"
+				name="whereLive"
+				id="apt"
+				value="apt">
+			<label for="apt" class="radioLabel">I live in an apartment/condo/townhouse</label>
+			<label for="rentalAllow" class="homeIrrelevant">Does your rental allow dogs?</label>
+			<input type="radio"
+					name="rentalAllow"
+					id="yesWritten"
+					class="homeIrrelevant"
+					value="yesWritten">
+			<label for="yesWritten" class="radioLabel homeIrrelevant">Yes, I have written permission</label>
+			<input type="radio"
+					name="rentalAllow"
+					id="yesCan"
+					class="homeIrrelevant"
+					value="yesCan">
+			<label for="yesCan" class="radioLabel homeIrrelevant">Yes, I can get written permission</label>
+			<input type="radio"
+					name="rentalAllow"
+					id="dontKnow"
+					class="homeIrrelevant"
+					value="dontKnow">
+			<label for="dontKnow" class="radioLabel homeIrrelevant">I don't know</label>
+			<label for="securityDeposit" class="homeIrrelevant">Does your apartment/condo/townhouse require a pet deposit?</label>
+			<input type="radio"
+					name="securityDeposit"
+					id="securityYes"
+					class="homeIrrelevant"
+					value="securityYes">
+			<label for="securityYes" class="radioLabel homeIrrelevant">Yes</label>
+			<input type="radio"
+					name="securityDeposit"
+					id="securityNo"
+					class="homeIrrelevant"
+					value="securityNo">
+			<label for="securityNo" class="radioLabel homeIrrelevant">No</label>
+			<input type="radio"
+					name="securityDeposit"
+					id="securityDontKnow"
+					class="homeIrrelevant"
+					value="securityDontKnow">
+			<label for="securityDontKnow" class="radioLabel homeIrrelevant">I don't know</label>
+			<label for="whichDog">Which dog would you like to meet?</label>
+			<input type="text" name="whichDog" id="whichDog" class="halfTextbox">
+			<label for="doggieDoor">Do you have a doggie door?</label>
+			<input type="radio"
+					name="doggieDoor"
+					id="securityYes"
+					value="doggieDoorYes">
+			<label for="doggieDoorYes" class="radioLabel">Yes</label>
+			<input type="radio"
+					name="doggieDoor"
+					id="doggieDoorNo"
+					value="doggieDoorNo">
+			<label for="doggieDoorNo" class="radioLabel">No</label>
+			<label for="indoorOutdoor">Will your dog be primarily an indoor or outdoor dog?</label>
+			<input type="radio"
+					name="indoorOutdoor"
+					id="indoor"
+					value="indoor">
+			<label for="indoor" class="radioLabel">Indoor</label>
+			<input type="radio"
+					name="indoorOutdoor"
+					id="outdoor"
+					value="outdoor">
+			<label for="outdoor" class="radioLabel">Outdoor</label>
+			<label for="previousPets">Have you had dogs or cats previously?</label>
+			<input type="radio"
+					name="previousPets"
+					id="dogs"
+					value="dogs">
+			<label for="dogs" class="radioLabel">Dogs</label>
+			<input type="radio"
+					name="previousPets"
+					id="cats"
+					value="cats">
+			<label for="cats" class="radioLabel">Cats</label>
+			<input type="radio"
+					name="previousPets"
+					id="both"
+					value="both">
+			<label for="both" class="radioLabel">Both</label>
+			<input type="radio"
+					name="previousPets"
+					id="neither"
+					value="neither">
+			<label for="neither" class="radioLabel">Neither</label>
+			<label for="describeFormerPets" class="noPetsIrrelevant">Please describe why you no longer have each of these pets:</label>
+			<textarea name="describeFormerPets" class="noPetsIrrelevant" id="describeFormerPets" rows="10"></textarea>
+			<label for="describeCurrentPets">Please describe current pets or any animals that regularly visit:</label>
+			<textarea name="describeCurrentPets" id="describeCurrentPets" rows="10"></textarea>
+			<label for="describeChildren">Please lisit all children, including ages:</label>
+			<textarea name="describeChildren" id="describeChildren" rows="10"></textarea>
+			<label for="allergies">Is anyone in your house allergic to dogs?</label>
+			<input type="radio"
+					name="allergies"
+					id="allergiesYes"
+					value="allergiesYes">
+			<label for="allergiesYes" class="radioLabel">Yes</label>
+			<input type="radio"
+					name="allergies"
+					id="allergiesNo"
+					value="allergiesNo">
+			<label for="allergiesNo" class="radioLabel">No</label>
+			<label for="dogGift">Is this dog a gift?</label>
+			<input type="radio"
+					name="dogGift"
+					id="dogGiftYes"
+					value="dogGiftYes">
+			<label for="dogGiftYes" class="radioLabel">Yes</label>
+			<input type="radio"
+					name="dogGift"
+					id="dogGiftNo"
+					value="dogGiftNo">
+			<label for="dogGiftNo" class="radioLabel">No</label>
+			<label for="dogAlone">How many hours per day will your dog be alone?</label>
+			<input type="text" name="dogAlone" id="dogAlone" class="halfTextbox">
+			<label for="trainer">Can you afford a trainer?</label>
+			<input type="radio"
+					name="trainer"
+					id="trainerYes"
+					value="trainerYes">
+			<label for="trainerYes" class="radioLabel">Yes</label>
+			<input type="radio"
+					name="trainer"
+					id="trainerNo"
+					value="trainerNo">
+			<label for="trainerNo" class="radioLabel">No</label>
+			<label for="medical">How much are you willing to spend per year on medical?</label>
+			<input type="text" name="medical" id="medical" class="halfTextbox">
+			<label for="food">What kind of food will you give your dog?</label>
+			<input type="text" name="food" id="food" class="halfTextbox">
+			<p class="questionPara">Where will you keep your dog...</p>
+			<label for="atWork" class="indent">When you are at work?</label>
+			<input type="text" name="atWork" id="atWork" class="halfTextbox indent">
+			<label for="atNight" class="indent">At night?</label>
+			<input type="text" name="atNight" id="atNight" class="halfTextbox indent">
+			<label for="onVacation" class="indent">When you are on vacation?</label>
+			<input type="text" name="onVacation" id="onVacation" class="halfTextbox indent">
+			<p class="questionPara">What will you do if...</p>
+			<label for="behavior" class="indent">Your dog develops behavioral problems?</label>
+			<input type="text" name="behavior" id="behavior" class="halfTextbox indent">
+			<label for="move" class="indent">You move?</label>
+			<input type="text" name="move" id="move" class="halfTextbox indent">
+			<label for="unableToCare" class="indent">You become unable to care for your dog?</label>
+			<input type="text" name="unableToCare" id="unableToCare" class="halfTextbox indent">
+			<p class="bodyText">
+				I represent and warrant that all the statements made above are true and correct, that I have disclosed all the facts and have not withheld any pertinent information. I understand making any false claims or incomplete statements or misrepresentation of these facts may result in the removal of the adopted pet from my home by 2DaRescue.
+			</p>
+			<input type="checkbox" id="accept" value="accept">
+			<label for="accept" id="acceptStatement">I accept and understand</label>
+			<input type="submit" value="Submit" id="adoptionSubmit" class="submitButton">
+		</form>
+	</main>
+			<footer role="contentinfo">
+			<h5>Copyright &copy; 2018 2DaRescue &nbsp; | &nbsp; <a href="mailto:karen@2darescue.org">karen@2darescue.org</a> &nbsp; | &nbsp; (480) 229-9530  &nbsp; | &nbsp; Find us on <a href="https://www.facebook.com/2DARESCUE.ORG/">Facebook</a> and <a href="https://www.youtube.com/channel/UCCoY4osNB6nIRKdEUuwOBVg">Youtube</a></h5>
+			</footer>
+		</div>
+	</body>
+</html>

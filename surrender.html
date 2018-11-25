@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Join the 2DaRescue volunteer team!">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>2DaRescue Volunteer</title>
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
+		</head>
+	<body>
+		<div id="wrapper">
+		<div id="navBar">
+			<header role="banner">
+				<h1>Volunteer</h1>
+				<a href="index.html"><img src="pictures/2DaRescueBanner.png" class="mobileHidden banner" alt="2DaRescue Banner" align="left"></a>
+				<div id="whiteSpace">
+				</div>
+				
+			</header>
+			<nav id="mainNav" role="navigation">
+				<div class="mobileNav">
+					<div id="ham"> 
+						<input type="checkbox" class="desktopHidden tabletHidden" />
+						<br class="desktopHidden tabletHidden">
+						<span></span>
+						<span></span>
+						<span></span>
+							
+						<ul id="hamburgerNav">
+							<li class="primary"><a href="index.html">Home</a></li>
+							<li class="primary"><a href="adopt.html">Adopt</a></li>
+							<li class= "primary"><a href="about.html">About Us</a></li>
+							<li class="primary"><a href="volunteer.html">Volunteer</a></li>
+							<li class="adjacent"><a href="donate.html">Donate</a></li>
+							<li class="active"><a href="surrender.html">Surrender</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div> 
+						<a href="index.html"><img src="pictures/2DaRescueBannerMini.png" class="desktopHidden tabletHidden banner"></a>
+				</div>
+			</nav>
+		</div>
+			<main role="main">
+				<h2> Surrender </h2>
+				<h3> Thinking of surrendering your dog? Here are some other solutions...</h3>
+				<p class="centeredBodyText">Unable to find pet-friendly housing? <a href="https://www.apartmentlist.com/az/phoenix/c/pet-friendly-apartments-for-rent">Click here to discover housing in your area</a>.</p>
+				<p class="centeredBodyText">Experiencing pet allergies? <a href="https://www.petfinder.com/cats/living-with-your-cat/coping-allergies-pets/">Learn about coping with allergies on Petfinder</a></p>
+				<p class="centeredBodyText">Having financial troubles? <a href="https://www.humanesociety.org/resources/are-you-having-trouble-affording-your-pet?credit=web_id91375398#Arizona">Click for a list of resources to help you care for your pet.</a></p>
+				<p class="centeredBodyText">No choice but to give up your pet? Consider rehoming them directly. <a href="https://rehome.adoptapet.com/list-a-pet/step-1">Click for more information.</a></p>
+				<h3>If you must surrender your dog, please fill out the surrender form below. Please note that because 2DaRescue is entirely foster-based, our space is extremely limited. <strong>Filling out the form in no way guarantees that we shall be able to take your pet.</strong></h3>
+				<h2> Surrender Form </h2>
+				<form id="majorForm">
+					<p> By completing this form, I, <input type="text" name="surrenderName" class="halfTextbox" required="required"> acknowledge that I am the owner of the dog described below.</p>
+					<label for="dogName">Dog Name:</label>
+					<input type="text" name="dogName" id="dogName" class="halfTextbox" required="required">
+					<label for="dogBreed">Dog Breed:</label>
+					<input type="text" name="dogBreed" id="dogBreed" class="halfTextbox" required="required">
+					<label for="dogLicense">Dog License Number:</label>
+					<input type="text" name="dogLicense" id="dogLicense" class="halfTextbox" required="required">					
+					<label for="dogCountyID">Dog County ID:</label>
+					<input type="text" name="dogCountyID" id="dogCountyID" class="halfTextbox">
+					<label for="microchipNumber">Microchip Number:</label>
+					<input type="text" name="microchipNumber" id="microchipNumber" class="halfTextbox">					
+					<label for="dogAge">Dog Age:</label>
+					<input type="text" name="dogAge" id="dogAge" class="halfTextbox" required="required">
+					<label for="dogGender">Is your dog male or female?</label>
+					<input type="radio"
+						name="dogGender"
+						id="female"
+						value="female">
+					<label for="female" class="radioLabel">Female</label>
+					<input type="radio"
+						name="dogGender"
+						id="male"
+						value="male">
+					<label for="male" class="radioLabel">Male</label>	
+					<label for="dogFixed">Is your dog spayed or neutered?</label>
+					<input type="radio"
+						name="dogFixed"
+						id="fixedYes"
+						value="fixedYes">
+					<label for="fixedYes" class="radioLabel">Yes</label>
+					<input type="radio"
+						name="dogFixed"
+						id="fixedNo"
+						value="fixedNo">
+					<label for="fixedNo" class="radioLabel">No</label>
+					<label for="dogRabies">Is your pet's rabies vaccination current? (with proof)</label>
+					<input type="radio"
+						name="dogRabies"
+						id="rabiesVaccineYes"
+						value="rabiesVaccineYes">
+					<label for="rabiesVaccineYes" class="radioLabel">Yes</label>
+					<input type="radio"
+						name="dogRabies"
+						id="rabiesVaccineNo"
+						value="rabiesVaccineNo">
+					<label for="rabiesVaccineNo" class="radioLabel">No</label>
+					<label for="dogDHPPV">Is your pet's DHPPV vaccination current? (with proof)</label>
+					<input type="radio"
+						name="dogDHPPV"
+						id="DHPPVYes"
+						value="DHPPVYes">
+					<label for="DHPPVYes" class="radioLabel">Yes</label>
+					<input type="radio"
+						name="dogDHPPV"
+						id="DHPPVNo"
+						value="DHPPVNo">
+					<label for="DHPPVNo" class="radioLabel">No</label>
+					<label for="surrenderReason">Reason for surrender:</label>
+					<textarea name="surrenderReason" id="surrenderReason" rows="10"></textarea>
+					<label for="additionalInformation">Additional Information:</label>
+					<textarea name="additionalInformation" id="additionalInformation" rows="10"></textarea>
+					<label for="photo">Photo</label>
+					<button type="button">Upload...</button>
+					<p>
+						I am requesting 2DaRescue to take possession of my dog(s). I willfully surrender all ownership rights to the rescue organization. I understand that I will receive no compensation for said dog(s) nor will I have the opportunity to reclaim them or receive future information regarding them unless specifically noted by the organization.
+					</p>
+					<p>
+						Neither 2DaRescue, its volunteers or associates will be held liable or responsible for any claims or causes of actions incurred as a result of the provision or restriction of information, services, contracts, adoptions, fostering or veterinary care, or by the actions of any and all dogs transferred or referenced herein. 
+					</p>
+					<p>
+						2DaRescue agrees not to sell my information. Furthermore, 2DaRescue will work in the best interest of the dog to find him/her a suitable home. If a suitable home cannot be found, 2DaRescue will contact me using the contact information provided below to give me the opportunity to reclaim my dog. If I do not exercise this right within forty eight (48) hours, 2DaRescue will take whatever action deemed appropriate. 
+					</p>
+					<div id="personalInfo">
+						<label for="applicantEmail">Email:</label>
+						<input type="text" name="applicantEmail" id="applicantEmail" class="halfTextbox" required="required">
+						<br class="desktopHidden mobileHidden">
+						<label for="applicantPhone" id="phoneLabel">Phone Number:</label>
+						<input type="text" name="applicantPhone" id="applicantPhone" class="halfTextbox" required="required">
+						<label for="applicantStreetAddress">Street Address:</label>
+						<input type="text" name="applicantStreetAddress" id="applicantStreetAddress" class="fullTextbox" required="required">
+						<label for="applicantCity">City:</label>
+						<input type="text" name="applicantCity" id="applicantCity" class="halfTextbox" required="required">
+						<label for="applicantState">State:</label>
+						<select size="1" name="applicantState" id="applicantState" required="required">
+										<option> Select your state </option>
+										<option value="alabama">Alabama</option>
+										<option value="alaska">Alaska</option>
+										<option value="arizona">Arizona</option>
+										<option value="arkansas">Arkansas</option>
+										<option value="california">California</option>
+										<option value="colorado">Colorado</option>
+										<option value="connecticut">Connecticut</option>
+										<option value="delaware">Delaware</option>
+										<option value="florida">Florida</option>
+										<option value="georgia">Georgia</option>
+										<option value="hawaii">Hawaii</option>
+										<option value="idaho">Idaho</option>
+										<option value="illinois">Illinois</option>
+										<option value="indiana">Indiana</option>
+										<option value="iowa">Iowa</option>
+										<option value="kansas">Kansas</option>
+										<option value="kentucky">Kentucky</option>
+										<option value="louisiana">Louisiana</option>
+										<option value="maine">Maine</option>
+										<option value="maryland">Maryland</option>
+										<option value="massachusetts">Massachusetts</option>
+										<option value="michigan">Michigan</option>
+										<option value="minnesota">Minnesota</option>
+										<option value="mississippi">Mississippi</option>
+										<option value="missouri">Missouri</option>
+										<option value="montana">Montana</option>
+										<option value="nebraska">Nebraska</option>
+										<option value="nevada">Nevada</option>
+										<option value="newhampshire">New Hampshire</option>
+										<option value="newjersey">New Jersey</option>
+										<option value="newmexico">New Mexico</option>
+										<option value="newyork">New York</option>
+										<option value="northcarolina">North Carolina</option>
+										<option value="northdakota">North Dakota</option>
+										<option value="ohio">Ohio</option>
+										<option value="oklahoma">Oklahoma</option>
+										<option value="oregon">Oregon</option>
+										<option value="pennsylvania">Pennsylvania</option>
+										<option value="rhodeisland">Rhode Island</option>
+										<option value="southcarolina">South Carolina</option>
+										<option value="southdakota">South Dakota</option>
+										<option value="tennessee">Tennessee</option>
+										<option value="texas">Texas</option>
+										<option value="utah">Utah</option>
+										<option value="vermont">Vermont</option>
+										<option value="virginia">Virginia</option>
+										<option value="washington">Washington</option>
+										<option value="westvirginia">West Virginia</option>
+										<option value="wisconsin">Wisconsin</option>
+										<option value="wyoming">Wyoming</option>
+									</select>
+						<label for="applicantZip">Zip:</label>
+						<input type="text" name="applicantZip" id="applicantZip" class="quarterTextbox" required="required">
+						<label for="signed">Signed:</label>
+						<input type="text" name="signed" id="signed" class="halfTextbox" required="required">
+						<br class="desktopHidden mobileHidden">
+						<label for="dated">Dated:</label>
+						<input type="text" name="dated" id="dated" class="halfTextbox" required="required">
+					</div>
+					<input type="submit" value="Submit" id="surrenderSubmit" class="submitButton">
+				</form>
+			</main>
+			<footer role="contentinfo">
+			<h5>Copyright &copy; 2018 2DaRescue &nbsp; | &nbsp; <a href="mailto:karen@2darescue.org">karen@2darescue.org</a> &nbsp; | &nbsp; (480) 229-9530  &nbsp; | &nbsp; Find us on <a href="https://www.facebook.com/2DARESCUE.ORG/">Facebook</a> and <a href="https://www.youtube.com/channel/UCCoY4osNB6nIRKdEUuwOBVg">Youtube</a></h5>
+			</footer>
+		</div>
+	</body>
+</html>

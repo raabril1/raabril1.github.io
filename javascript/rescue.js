@@ -92,9 +92,7 @@ function runAdoptapetApi() {
 }
 
 function getPetDetails(detailsUrl, petDialog) {
-	
-	console.log("Clicked: " + detailsUrl);
-	
+
 	
 	
 	var data = {}

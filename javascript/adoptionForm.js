@@ -1,6 +1,5 @@
 $(document).ready( function() {
 	
-
 	
 	$("input[name=whereLive]").click(function() {
 		var item = $('input[name=whereLive]:checked').val();

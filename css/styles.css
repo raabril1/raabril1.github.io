@@ -95,6 +95,7 @@ img{
 	font-size: 2.5em;
 	border-style: solid;
 	font-weight: bold;
+	border-color: #22a3e2;
 	
 }
 
@@ -145,6 +146,21 @@ img{
 	
 	#dogDetailsDialog{
 		height: 600px !important;
+	}
+	
+	#dogDetailsDialog a{
+		color: #22a3e2;
+	}
+	
+	#dogDetailsDialog button{
+	background-color: #e01f10;
+	color: #ffffff;
+	font-family: 'Muli', sans-serif;
+	border-style: solid;
+	font-weight: bold;
+	border-color: #e01f10;
+	margin-top: 15px;
+	
 	}
 	
 	hr{
@@ -225,6 +241,10 @@ footer a{
 	}
 
 	.homeIrrelevant{
+		display: none;
+	}
+	
+	.noPetsIrrelevant{
 		display: none;
 	}
 	
@@ -463,7 +483,14 @@ footer a{
 		width: 50%;
 	}
 	
+	#uploadPhoto{
+		width: 30%;
+		margin-bottom: 20px;
+		background-color: #ededed;
+		border-style: solid;	
+	}
 	
+
 	#404Body{
 		background-color: #ffffff;
 		
@@ -961,7 +988,7 @@ footer a{
 	background-color: #22a3e2;
 	padding: 15px;
 
-}
+}Adopt
 	.activeHome{
 		background-color: #22a3e2;
 		padding: 10px;
@@ -973,6 +1000,7 @@ footer a{
 		margin-top: 75px;
 		z-index: -1;
 	}
+	
 	
 	.partnersSlideshow{
 		z-index: -1;

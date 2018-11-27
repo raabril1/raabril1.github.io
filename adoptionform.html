@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="javascript/adoptionForm.js"></script>
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		</head>
 	<body>
 		<div id="wrapper">
@@ -120,20 +121,20 @@
 				<input type="text" name="applicantZip" id="applicantZip" class="quarterTextbox" required="required">
 			</div>
 			<label for="whereLive">What is your current living situation?</label>
-			<input type = "radio"
-				name="whereLive"
-				id="own"
-				value="own">
-			<label for="ownHome" class="radioLabel">I own my home</label>
-			<input type = "radio"
-				name="whereLive"
-				id="rent"
-				value="rent">
-			<label for="rentHome" class="radioLabel">I rent my home</label>
-			<input type = "radio"
-				name="whereLive"
-				id="apt"
-				value="apt">
+			<input type="radio"
+					name="whereLive"
+					id="own"
+					value="own">
+			<label for="own" class="radioLabel">I own my home</label>
+			<input type="radio"
+					name="whereLive"
+					id="rent"
+					value="rent">
+			<label for="rent" class="radioLabel">I rent my home</label>
+			<input type="radio"
+					name="whereLive"
+					id="apt"
+					value="apt">
 			<label for="apt" class="radioLabel">I live in an apartment/condo/townhouse</label>
 			<label for="rentalAllow" class="homeIrrelevant">Does your rental allow dogs?</label>
 			<input type="radio"
@@ -178,7 +179,7 @@
 			<label for="doggieDoor">Do you have a doggie door?</label>
 			<input type="radio"
 					name="doggieDoor"
-					id="securityYes"
+					id="doggieDoorYes"
 					value="doggieDoorYes">
 			<label for="doggieDoorYes" class="radioLabel">Yes</label>
 			<input type="radio"

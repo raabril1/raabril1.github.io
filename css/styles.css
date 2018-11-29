@@ -53,12 +53,13 @@ h1{
 }
 /*Hide h1 tag*/
 
-/*Global Styles here*/
+/*Global Styles begin*/
 a {
 	text-decoration: none;
 	color: #22a3e2;
 	font-weight: bold;
 }
+
 
 body{
 	font-family: 'Muli', sans-serif;
@@ -180,7 +181,7 @@ img{
 	.partnersSlideshow{
 		width: 70%;
 		margin: 0 auto;
-		padding: 20px;
+		padding: 10px;
 	}
 	
 	
@@ -1004,9 +1005,6 @@ footer a{
 	}
 	
 	
-	.partnersSlideshow{
-		z-index: -1;
-	}
 	
 		#alternateButtons{
 			display: -webkit-box;

@@ -261,11 +261,6 @@ footer a{
 		font-size: 1.10em;
 		text-align: center;
 		}
-	#wrapper{
-		background-color: #fdf9e8;
-		width: 60%;
-		margin: 0 auto;
-	}
 	
 	#whiteSpace{
 	background-color: #ffffff;
@@ -493,36 +488,18 @@ footer a{
 		font-size: 1em;
 	}
 	
-
-	#404Body{
-		background-color: #ffffff;
-		
-	}
-	
-	#colorbox{
-		background-color: #22a3e2;
-		padding: 160px;
-		display: fixed;
-		z-index: -1px;
-
-	}
-	
-	#whitebox{
-		background-color: #ffffff;
-		padding: 351px;
-		display: fixed;
-		z-index: -2;
-
-	}
-	
-
-
 }
 
 
 
 /*Begin desktop only styles*/
-@media screen and (min-width: 1450px){
+@media screen and (min-width: 1200px){
+	
+	#wrapper{
+		background-color: #fdf9e8;
+		width: 80%;
+		margin: 0 auto;
+	}
 
 
 	.active{
@@ -599,7 +576,7 @@ footer a{
 	
 	#sideButtons{
 		float: right;
-		padding: 10px;
+		padding: 30px;
 	}
 	
 	#donateFront{	
@@ -612,14 +589,14 @@ footer a{
 	}
 
 	.donateSlideshow{
-		width: 50%;
+		width: 60%;
 		padding-left: 10px;
 		margin-left: 25px;
 	}
 	
 	#pricesAndButton{
 		float: right;
-		margin-top: -230px;
+		margin-top: -200px;
 		margin-right: 30px;
 		margin-bottom: 20px;
 		margin-left: 10px;
@@ -668,7 +645,11 @@ footer a{
 /*End desktop only styles*/
 
 /*Begin tablet only styles*/
-@media screen and (max-width: 1450px) and (min-width: 768px){
+@media screen and (max-width: 1200px) and (min-width: 768px){
+	body{
+		background-color: #fdf9e8;
+	}
+	
 	
 	footer {
 		font-size: 1.25em;
@@ -716,7 +697,7 @@ footer a{
 		width: 40%;
 	}
 	#adoptableDog{
-		margin: 0 auto;
+		align-self: center;
 	}
 	
 	#donateFront{
@@ -788,6 +769,11 @@ footer a{
 		margin-top: 15px;
 	}
 	
+		.donateSlideshow{
+		margin-left: 30px;
+		margin-right: 50px;
+		padding-left: 15px;
+	}
 	
 	.tabletHidden{
 		display: none;
@@ -820,6 +806,7 @@ footer a{
 	/*Begin mobile nav styles*/	
 	.mobileNav {
 		position: fixed;
+		z-index: 2000;
 		width: 100%;
 		background-color: #ffffff;
 		margin-top: -1em;
@@ -1001,7 +988,6 @@ footer a{
 
 	.mainSlideshow{
 		margin-top: 75px;
-		z-index: -1;
 	}
 	
 	
@@ -1176,9 +1162,7 @@ footer a{
 	width: 80%;
 	}
 	
-	.donateSlideshow{
-		z-index: -1;	
-	}
+
 	
 	#pricesAndButton{
 		display: inline-block;

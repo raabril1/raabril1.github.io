@@ -4,5 +4,13 @@ $(document).ready(function(){
 	  slidesToShow: 2,
 	  slidesToScroll: 2,
 	  autoplay: true,
+	  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false
+      }
+    }
+  ]
   });
 });

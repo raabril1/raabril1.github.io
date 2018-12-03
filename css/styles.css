@@ -488,6 +488,13 @@ footer a{
 		font-size: 1em;
 	}
 	
+		#pricesAndButton{
+		float: right;
+		margin-right: 30px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	
 }
 
 
@@ -498,6 +505,7 @@ footer a{
 	#wrapper{
 		background-color: #fdf9e8;
 		width: 80%;
+		max-width: 1200px;
 		margin: 0 auto;
 	}
 
@@ -594,13 +602,7 @@ footer a{
 		margin-left: 25px;
 	}
 	
-	#pricesAndButton{
-		float: right;
-		margin-top: -200px;
-		margin-right: 30px;
-		margin-bottom: 20px;
-		margin-left: 10px;
-	}
+
 	
 	#donateButton{
 		margin-top: 5px;

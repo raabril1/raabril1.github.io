@@ -109,6 +109,7 @@ img{
 	#dogGallery{
 		width: 90%;
 		margin: 0 auto;
+		margin-top: 20px;
 		background-color: #ffffff;
 		padding-bottom: 15px;
 		margin-bottom: 10px;
@@ -329,6 +330,7 @@ footer a{
 	
 	#missionStatement{
 		font-style: italic;
+		font-size: 1.5em;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -664,8 +666,8 @@ footer a{
 	}
 	
 	
-	#mainNav .primary{
-		padding-bottom: 10px;
+	#mainNav {
+		padding: 15px;
 	}
 	
 	.active{
@@ -767,9 +769,6 @@ footer a{
 	width: 45%;
 	}
 	
-	#pricesAndButton{
-		margin-top: 15px;
-	}
 	
 		.donateSlideshow{
 		margin-left: 30px;
@@ -980,11 +979,8 @@ footer a{
 	background-color: #22a3e2;
 	padding: 15px;
 
-}Adopt
-	.activeHome{
-		background-color: #22a3e2;
-		padding: 10px;
 	}
+	
 	
 /*end mobile nav styles*/
 
@@ -1170,6 +1166,7 @@ footer a{
 		display: inline-block;
 		margin-top: 10px;
 		padding-bottom: 5px;
+		margin-bottom: 20px;
 	}
 	
 	.donationItem{
@@ -1181,12 +1178,6 @@ footer a{
 		margin-top: -50px;
 	}
 
-	.flexReverse{
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: reverse;
-		    -ms-flex-direction: column-reverse;
-		        flex-direction: column-reverse;
-	}
 	
 	.mobileHidden{
 		display: none;

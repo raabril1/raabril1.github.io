@@ -666,8 +666,8 @@ footer a{
 	}
 	
 	
-	#mainNav {
-		padding: 15px;
+	#mainNav .primary{
+		padding-bottom: 15px;
 	}
 	
 	.active{
